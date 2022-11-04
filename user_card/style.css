@@ -7,7 +7,7 @@
 .user_card{
     background-color: rgb(3, 100, 87);
     height: 590px;
-    width: 550px;
+    width: 480px;
     position: relative;
     top: 80px;
     left: 450px;
@@ -36,5 +36,19 @@
 }
 
 .main{
-    
+    padding: 45px;
+}
+
+.image{
+    text-align: center;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+.content{
+    text-align: center;
+    color: #fff;
+    padding-top: 5px;
 }
