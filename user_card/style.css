@@ -6,24 +6,35 @@
 
 .user_card{
     background-color: rgb(3, 100, 87);
-    height: 500px;
-    width: 600px;
+    height: 590px;
+    width: 550px;
     position: relative;
-    top: 150px;
+    top: 80px;
     left: 450px;
-    border-radius: 20%;
+    border-radius: 25px;
 }
 
 .header{
     display: flex;
     flex-direction: wrap;
-    padding: 20px;
+    padding-top: 30px;
 }
 
 .arrow{
-    flex: 40%;
+    flex: 70%;
+    padding-left: 30px ;
 }
 
 .heart{
+    padding-right: 30px ;
+    justify-content: space-between;
+}
 
+.arrow i, .heart i{
+   font-size: 20px;
+   color: #fff;
+}
+
+.main{
+    
 }
