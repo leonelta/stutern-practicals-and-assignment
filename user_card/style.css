@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.user_card{
+    background-color: rgb(3, 100, 87);
+    height: 500px;
+    width: 600px;
+    position: relative;
+    top: 150px;
+    left: 450px;
+    border-radius: 20%;
+}
+
+.header{
+    display: flex;
+    flex-direction: wrap;
+    padding: 20px;
+}
+
+.arrow{
+    flex: 40%;
+}
+
+.heart{
+
+}
