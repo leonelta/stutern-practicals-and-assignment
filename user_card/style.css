@@ -5,6 +5,7 @@
 }
 
 .user_card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(3, 100, 87);
     height: 590px;
     width: 450px;
@@ -36,7 +37,7 @@
 }
 
 .main{
-    padding: 75px 0 30px 0;
+    padding: 55px 0 30px 0;
 }
 
 .image{
@@ -64,18 +65,24 @@
 
 .content .three{
     font-size: 17px;
-    margin: 5px 0;
+    margin: 3px 0;
 }
 
 .Button{
     display: inline-block;
-    background:rgb(189, 29, 77);
+    background: linear-gradient(to right, rgb(212, 117, 54), rgb(36, 91, 99));
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    padding: 8px 35px;
-    margin-top: 20px;
+    padding: 6px 23px;
+    margin-top: 3px;
     border-radius: 50px;
-    border: 2px solid rgb(189, 29, 77);
+    border: 2px solid none;
     transition: all 0.3s ease;
+}
+
+hr{
+    position: relative;
+    width: 90%;
+    left: 20px;
 }
