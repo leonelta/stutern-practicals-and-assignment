@@ -86,3 +86,9 @@ hr{
     width: 90%;
     left: 20px;
 }
+
+.footer{
+    display: flex;
+    flex-direction: wrap;
+    padding-top: 30px;
+}
