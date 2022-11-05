@@ -1,13 +1,14 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
 }
 
 .user_card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(3, 100, 87);
-    height: 590px;
+    height: 630px;
     width: 450px;
     position: relative;
     top: 80px;
@@ -18,7 +19,7 @@
 .header{
     display: flex;
     flex-direction: wrap;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 .arrow{
@@ -32,7 +33,7 @@
 }
 
 .arrow i, .heart i{
-   font-size: 20px;
+   font-size: 15px;
    color: #fff;
 }
 
@@ -52,19 +53,19 @@
     text-align: center;
     color: #fff;
     padding-top: 15px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .content .one{
-    font-size: 25px;
+    font-size: 17px;
 }
 
 .content .two{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .content .three{
-    font-size: 17px;
+    font-size: 13px;
     margin: 3px 0;
 }
 
@@ -78,6 +79,7 @@
     margin-top: 3px;
     border-radius: 50px;
     border: 2px solid none;
+    text-decoration: none;
     transition: all 0.3s ease;
 }
 
@@ -90,5 +92,21 @@ hr{
 .footer{
     display: flex;
     flex-direction: wrap;
-    padding-top: 30px;
+    justify-content: space-between;
+    margin: 12px 50px;
+
+    
 }
+
+.linked img, .twitter img, .insta img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.linked, .twitter, .insta {
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
