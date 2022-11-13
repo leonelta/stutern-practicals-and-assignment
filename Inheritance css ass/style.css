@@ -26,4 +26,11 @@ h1{
 
 .likes{
     list-style-type: circle;
+    padding: 1rem;
 }
+
+.like{
+    padding: 0.5rem;
+    margin-left: 1.5rem;
+}
+
