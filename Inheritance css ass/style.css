@@ -5,3 +5,19 @@
     font-family: 'Roboto', sans-serif;    
 }
 
+
+#first{
+    padding: 15px;
+    margin: 15px;
+
+}
+
+h1{
+    color: red;
+    padding: 1.5rem 2rem;
+}
+
+.top{
+    color: rgb(92, 19, 19);
+   
+}
