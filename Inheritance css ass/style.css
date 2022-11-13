@@ -34,3 +34,7 @@ h1{
     margin-left: 1.5rem;
 }
 
+.dislikes{
+    list-style-type: upper-roman;
+    padding: 1rem;
+}
