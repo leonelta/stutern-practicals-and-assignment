@@ -11,3 +11,8 @@ section{
 h1{
     font-size: 18px;
 }
+
+.intro{
+    color: green;
+    font-size: 14px;
+}
